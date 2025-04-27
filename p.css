@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/* menu bar top */
+
+ul {
+    display: flex;
+    background-color: rgb(225, 64, 28);
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    color: black;
+
+}
+
+.redirect {
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 0px 20px 0px;
+    cursor: pointer;
+
+}
+
+ul img {
+    height: 42px;
+    width: 42px;
+    margin-left: 0px;
+}
+
+
+#self {
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+
+
+i {
+    font-size: 25px;
+    padding-left: 20px;
+    letter-spacing: 2.5px;
+    margin-top: 6%;
+
+}
+
+
+
+
+.container {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Cursor */
+.txt-type>.txt {
+    border-right: 0.2rem solid #777;
+}
+
+span {
+    font-size: 80px;
+    margin-left: 0;
+
+
+}
+
+.flogo {
+    width: 10%;
+}
+
+/* C.V download button */
+
+.but {
+
+    margin-top: 50px;
+    width: 15%;
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    border: solid black;
+
+
+}
+.but:hover {
+    background-color: rgb(243, 74, 36);
+}
+
+
+/* goku video */
+.background-vid {
+    position: absolute;
+    z-index: -1;
+
+
+}
+
+
+
+/* skill page styling */
+
+.skill {
+
+    font-size: 25px;
+    color: aliceblue;
+    margin: 40px 10px 0px;
+    width: 100%;
+    color: black;
+    text-decoration: double;
+
+
+
+}
+
+.skill-bg {
+    background-color: chocolate;
+}
+.skillcontainer {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #0948f7;
+    margin-left: 50px;
+    word-spacing: 3px;
+
+}
+
+.skillfoot {
+    color: white;
+    margin-top: -10px;
+}
+
+
+
+
+.skfoot {
+    margin-top: -25px;
+}
+.skillfoot:hover {
+    color: rgb(243, 74, 36);
+}
+
+
+
+.foot {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: #777;
+
+}
+
+.foot:hover {
+    color: rgb(243, 74, 36);
+}
+
+.navfoot {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: #777;
+    bottom: 0;
+}
+.ctfoot {
+    margin-top: -25px;
+    color: white;
+
+}
+marquee {
+    color: rgb(35, 2, 66);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+
+#blur {
+    filter: blur(8px);
+    shape-rendering: inherit;
+}
+
+
+.ctcontainer {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #0948f7;
+    -webkit-text-stroke: 0.5px fff;
+    margin-left: 100px;
+    word-spacing: 3px;
+    text-decoration: none;
+
+}
+#ctinfo{
+    font-size: 25px;
+}
+
+
+
+
+/* skill detailing */
+
+#html {
+    width: 79%;
+    color: #fff;
+
+}
+
+#css {
+    width: 79%;
+    color: #fff;
+}
+
+#seo {
+    width: 73%;
+    color: #fff;
+}
+
+#cp {
+    width: 85%;
+    color: #fff;
+}
+
+#dbms {
+    width: 92%;
+    color: #fff;
+}
+
+#trouble {
+    width: 90%;
+    color: #fff;
+}
+
+
+/* education text styling */
+.educontainer {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 35px;
+    color: #0948f7;
+    -webkit-text-stroke: 0.5px fff;
+    margin-left: 100px;
+    word-spacing: 3px;
+}
+
+/* education hr tag width */
+#eduhr1 {
+    width: 21%;
+    margin-left: 27px;
+    color: #fff;
+
+}
+
+#eduhr2 {
+    width: 22%;
+    color: #fff;
+
+}
+
+#eduhr3 {
+    width: 28%;
+    color: #fff;
+
+}
+
+
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
